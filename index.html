@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>My Portfolio - Gaurav Gautam</title>
+
+
+</head>
+
+<body>
+    <div class="hero" id="Home">
+        <nav>
+            <h2 class="logo">Portfo<span>lio.</span></h2>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Contact" id="list">Contact Me</a></li>
+            </ul>
+
+            <a href="#" class="btn" onclick="openpopup()"><i class="fa-solid fa-location-pin"
+                    style="color: #ffffff;"></i> Resume</a>
+                    
+            <div class="popup" id="popup">
+                <p>
+                    Please, Mail to gauravgautam057@gmail.com.
+                </p>
+                <img src="" alt="">
+                <form action="">
+                    <input type="text" name="ask" autocomplete="a" placeholder="Please Share your details"
+                        maxlength="150">
+                </form>
+                <button class="sub" onclick="closepopup()">OK</button>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <h4>Hello, My Name Is..</h4>
+        <h1>GAURAV <span>GAUTAM</span></h1>
+        <h3>I am a Web Devloper</h3>
+        <div class="letter">
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Enter Your Email.." autocomplete="ge">
+                <input type="submit" name="submit" id="submit" value="Let's Go" autocomplete="ge">
+            </form>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <section class="about" id="About">
+        <div class="abmain">
+            <img src="2.jpg" alt="error">
+            <div class="main">
+                <h2>About Me</h2>
+                <h5>Developer <span> & Designer</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi impedit illum voluptate
+                    necessitatibus aperiam facilis, consequuntur iusto hic repellat reiciendis rem quo cupiditate,
+                    obcaecati tenetur deleniti saepe mollitia? Molestias?</p>
+                <button type="button" id="mail"> Read More</button>
+                <!-- <p id="item">
+
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- the Skills Section -->
+    <div class="skills" id="Skills">
+        <div class="title">
+            <h2>My Ski<span>lls</span></h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bolt"></i>
+                <h5>Programming Skills</h5>
+                <div class="para">
+                    <p>
+                    <ul>
+                        <li>C programming</li>
+                        <li>Python Basic</li>
+                        <li>Html, CSS, JavaScript, Jquery</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    </p>
+
+
+                    <p class="b" style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-bolt"></i>
+                <h5>Languages Known</h5>
+                <div class="para">
+                    <p>English and Hindi</p>
+
+
+                    <p class="b" style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-bolt"></i>
+                <h5> Interpersonal Skills</h5>
+                <div class="para">
+                    <p>
+                    <ul>
+                        <li>Leadership</li>
+                        <li>Dedicated & Hardworking</li>
+                        <li>Communication Skill</li>
+                        <li>Quick Learner</li>
+
+                    </ul>
+                    </p>
+
+
+                    <p class="b" style="text-align: center;">
+                        <a class="button" href="#"> Read More </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- the Experience Section  -->
+    <div class="exp" id="Experience">
+        <div class="h">
+            <h4>My Experie<span>nces</span></h4>
+        </div>
+        <div class="bo">
+
+
+            <div class="det">
+                <p> <i class="fa-solid fa-bolt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                    suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, laborum? Placeat commodi
+                    ab nulla est totam tempora ea itaque, possimus qui deleniti esse delectus veritatis. Quisquam alias
+                    itaque quidem explicabo!</p>
+
+                <a href="#" class="but"> Read More</a>
+            </div>
+
+            <div class="det">
+                <p> <i class="fa-solid fa-bolt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                    suscipit.</p>
+
+                <a href="#" class="but"> Read More</a>
+            </div>
+
+            <div class="det">
+                <p> <i class="fa-solid fa-bolt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                    suscipit.</p>
+
+                <a href="#" class="but"> Read More</a>
+            </div>
+
+            <div class="det">
+                <p> <i class="fa-solid fa-bolt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                    suscipit.</p>
+
+                <a href="#" class="but"> Read More</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- Contact ME -->
+    <footer id="Contact">
+        <p>Gaurav Gautam</p>
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nulla voluptas quaerat, pariatur ducimus
+            veritatis nam.</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github-alt"></i></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="end">Copyright by Gaurav Gautam</p>
+    </footer>
+</body>
+
+
+<script type="text/JavaScript" src="script.js"></script>
+
+
+</html>
